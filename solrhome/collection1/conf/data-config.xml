@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<dataConfig>   
+<dataSource type="JdbcDataSource"   
+		  driver="com.mysql.jdbc.Driver"   
+		  url="jdbc:mysql://cdb-fmyiu6q7.gz.tencentcdb.com:10045/otakus"   
+		  user="root"   
+		  password="pxieloveQAQ()"/> 
+    <document>
+
+        <entity name="animate" query="SELECT animate_id,link,place,img,tittle,date,tag,characterVoice,madeFrom,watchPoint,introduce FROM animate">
+            <field column="animate_id" name="id"/>
+            <field column="link" name="animate_link"/>
+            <field column="place" name="animate_place"/>
+            <field column="img" name="animate_img"/>
+            <field column="tittle" name="animate_tittle"/>
+            <field column="date" name="animate_date"/>
+            <field column="tag" name="animate_tag"/>
+            <field column="characterVoice" name="animate_characterVoice"/>
+            <field column="madeFrom" name="animate_madeFrom"/>
+            <field column="watchPoint" name="animate_watchPoint"/>
+            <field column="introduce" name="animate_introduce"/>
+            
+        </entity>
+    </document>
+</dataConfig>
