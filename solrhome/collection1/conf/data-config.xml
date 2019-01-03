@@ -2,9 +2,9 @@
 <dataConfig>   
 <dataSource type="JdbcDataSource"   
 		  driver="com.mysql.jdbc.Driver"   
-		  url="jdbc:mysql://cdb-fmyiu6q7.gz.tencentcdb.com:10045/otakus"   
-		  user="root"   
-		  password="pxieloveQAQ()"/> 
+		  url=""   
+		  user=""   
+		  password=""/> 
     <document>
 
         <entity name="animate" query="SELECT animate_id,link,place,img,tittle,date,tag,characterVoice,madeFrom,watchPoint,introduce FROM animate">
